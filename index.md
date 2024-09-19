@@ -71,35 +71,12 @@ In this problem, FIFO (First in, Last out) scheduling is used, and all processes
 | P4           | 6 |
 | P5           | 2 |
 
-    <style>
-        /* Styling the Gantt Chart */
-        .gantt-chart {
-            position: relative;
-            width: 600px;
-            height: 200px;
-            border: 1px solid #ccc;
-            margin: 20px;
-        }
-
-        .process-bar {
-            position: absolute;
-            height: 30px;
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            line-height: 30px;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Gantt Chart Representation</h1>
-    <div class="gantt-chart">
+<div class="gantt-chart">
         <div class="process-bar" style="width: 30px; left: 0;">P1</div>
         <div class="process-bar" style="width: 110px; left: 30px;">P2</div>
         <div class="process-bar" style="width: 160px; left: 140px;">P3</div>
         <div class="process-bar" style="width: 60px; left: 300px;">P4</div>
         <div class="process-bar" style="width: 20px; left: 360px;">P5</div>
-    </div>
+</div>
 
 
