@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Scheduling Gantt Chart</title>
+    <style>
+        .gantt-chart {
+            position: relative;
+            width: 600px;  /* Adjust based on total time units */
+            height: 100px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .process {
+            position: absolute;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+        }
+        /* Define specific process styles */
+        .p1 { background-color: #4CAF50; left: 0; width: 60px; }
+        .p2 { background-color: #2196F3; left: 60px; width: 100px; }
+        .p3 { background-color: #f44336; left: 160px; width: 140px; }
+        .p4 { background-color: #FF9800; left: 300px; width: 80px; }
+        .p5 { background-color: #9C27B0; left: 380px; width: 40px; }
+    </style>
+</head>
+<body>
+
+<h1>Gantt Chart for Process Scheduling</h1>
+
+<!-- Gantt Chart container -->
+<div class="gantt-chart">
+    <div class="process p1">P1</div>
+    <div class="process p2">P2</div>
+    <div class="process p3">P3</div>
+    <div class="process p4">P4</div>
+    <div class="process p5">P5</div>
+</div>
+
+</body>
+</html>
