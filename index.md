@@ -61,7 +61,7 @@ This section is a hands-on demonstration of process scheduling. Given informatio
 
 ## Problem 1
 
-In this problem, FIFO (First in, Last out) scheduling is used, and all processes arrive at the same time. Therefore, they will be executed in a random order.
+In this problem, FIFO (First in, Last out) scheduling is used, and all processes arrive at the same time (that is, Arrival Time = 0). Therefore, they will be executed in a random order.
 
 | Process        | Burst Time (in ms)         |
 |:-------------|:------------------|
@@ -73,4 +73,11 @@ In this problem, FIFO (First in, Last out) scheduling is used, and all processes
 
 ![Problem1A](assets/p1b.png)
 
+Turnaround Time = Completion Time - Arrival Time
+
+* P1: 3 - 0 = 3
+* P2: 14 - 0 = 14
+* P3: 30 - 0 = 30
+* P4: 36 - 0 = 36
+* P5: 38 - 0 = 38
 
