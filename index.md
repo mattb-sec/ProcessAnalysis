@@ -119,3 +119,18 @@ As the data shows, the SJF scheduler will have a faster turnaround time than FIF
 # Conlcusion
 
 This lab did well to show how exactly a parent process can affect a child process. Moreover, it shows the creation of a zombie process and how this can take up resources on a computer despite no longer working. This highlights the importance of good programming. Had the program been properly coded, the parent process would have recycled the “body” of the killed child process so that it would no longer use resources on the computer. Finally, I felt the example problems of process scheduling does well to show the strengths and weaknesses of different kinds of schedulers and that there is no such thing as a “perfect” scheduler. Overall, I felt this lab provided good insight regarding the intricacies and relations of computer processes.
+
+# References
+
+- <a href="https://www.cyberithub.com/ps-command-in-linux-unix-with-examples/#Example_3_How_to_show_all_the_processes_running_with_a_specific_userps_-u_in_LinuxUnix" target="_blank">31 Popular Ps Command in Linux/Unix with Examples (Monitor Linux Processes).</a> CyberITHub. July 05, 2020. Accessed October 04, 2021.
+
+- <a href="https://www.geeksforgeeks.org/gcc-command-in-linux-with-examples/" target="_blank">Gcc Command in Linux with Examples.</a> GeeksforGeeks. May 20, 2019. Accessed October 04, 2021.
+
+- <a href="https://www.howtogeek.com/428174/what-is-a-tty-on-linux-and-how-to-use-the-tty-command/" target="_blank">What Is a TTY on Linux? (and How to Use the Tty Command).</a> McKay, Dave. How. July 12, 2019. Accessed October 04, 2021.
+
+- <a href="https://linux.die.net/man/1/ps" target="_blank">Ps(1): Report Snapshot of Current Processes - Linux Man Page.</a> Ps(1) - Linux Man Page. Accessed October 04, 2021.
+
+- <a href="https://linuxconfig.org/ps-output-difference-between-vsz-vs-rss-memory-usage" target="_blank">Ps Output - Difference between VSZ vs RSS Memory Usage.</a> Reynolds, Luke. Linux Tutorials - Learn Linux Configuration. June 13, 2021. Accessed October 04, 2021.
+
+- <a href="https://www.techonthenet.com/unix/basic/ps.php" target="_blank">UNIX Basic Commands: Ps.</a> Www.techonthenet.com. Accessed October 04, 2021.
+
