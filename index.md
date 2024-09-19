@@ -78,5 +78,5 @@ In this problem, FIFO (First in, Last out) scheduling is used, and all processes
 </div>
 |----|-----------|----------------|------|-----|
 <div>
-    0&nbsp;&nbsp;&nbsp;&nbsp;3
+    0&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14
 </div>
