@@ -71,12 +71,6 @@ In this problem, FIFO (First in, Last out) scheduling is used, and all processes
 | P4           | 6 |
 | P5           | 2 |
 
-<div class="gantt-chart">
-        <div class="process-bar" style="width: 30px; left: 0;">P1</div>
-        <div class="process-bar" style="width: 110px; left: 30px;">P2</div>
-        <div class="process-bar" style="width: 160px; left: 140px;">P3</div>
-        <div class="process-bar" style="width: 60px; left: 300px;">P4</div>
-        <div class="process-bar" style="width: 20px; left: 360px;">P5</div>
-</div>
+
 
 
