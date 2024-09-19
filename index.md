@@ -71,6 +71,6 @@ In this problem, FIFO (First in, Last out) scheduling is used, and all processes
 | P4           | 6 |
 | P5           | 2 |
 
-
+![Problem1A](assets/p1b.png)
 
 
