@@ -115,3 +115,7 @@ P5: 2 - 0 = 2
 ### Discussion
 
 As the data shows, the SJF scheduler will have a faster turnaround time than FIFO. Since the process order of FIFO will be totally random, it is likely that the largest jobs could come first and take up processing time. Whereas SJF will complete the shortest processes first and leave the longer ones for last. This means that SJF will have a shorter total turnaround time and average turnaround time.
+
+# Conlcusion
+
+This lab did well to show how exactly a parent process can affect a child process. Moreover, it shows the creation of a zombie process and how this can take up resources on a computer despite no longer working. This highlights the importance of good programming. Had the program been properly coded, the parent process would have recycled the “body” of the killed child process so that it would no longer use resources on the computer. Finally, I felt the example problems of process scheduling does well to show the strengths and weaknesses of different kinds of schedulers and that there is no such thing as a “perfect” scheduler. Overall, I felt this lab provided good insight regarding the intricacies and relations of computer processes.
