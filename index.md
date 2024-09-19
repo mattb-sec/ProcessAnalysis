@@ -59,9 +59,6 @@ Leaving the processes as they are, I enter the command ‘ps -u”. This command
 
 This section is a hands-on demonstration of process scheduling. Given information about each process' burst times, I will create a Gantt chart for each process list, explain their completion order, and calculate the total turnaround times and average turnaround times.
 
-## Problem 1
-
-In this problem, FIFO (First in, Last out) scheduling is used, and all processes arrive at the same time (that is, Arrival Time = 0). Therefore, they will be executed in a random order.
 
 | Process        | Burst Time (in ms)         |
 |:-------------|:------------------|
@@ -71,7 +68,13 @@ In this problem, FIFO (First in, Last out) scheduling is used, and all processes
 | P4           | 6 |
 | P5           | 2 |
 
-![Problem1A](assets/p1b.png)
+The processes all arrive at the same time (that is, Arrival Time = 0).
+
+### FIFO
+
+First, we will use FIFO (First in, Last out) scheduling. Since the processes all arrived at the same time, they will be executed in a random order.
+
+![Problem1A](assets/p1a.png)
 
 Turnaround Time = Completion Time - Arrival Time
 
@@ -85,3 +88,30 @@ P4: 36 - 0 = 36
 
 P5: 38 - 0 = 38
 
+- Total Turnaround Time = 121 ms
+- Average Turnaround Time = 24.2 ms
+
+### SJF
+
+Now we want to use SJF (Shortest Job First) scheduling. Therefore, the order of the processes depends on their time to completion. In this case, the order will be P5, P1, P4, P2, P3.
+
+![Problem1B](assets/p1b.png)
+
+Turnaround Time = Completion Time - Arrival Time
+
+P1: 5 - 0 = 5
+
+P2: 22 - 0 = 22
+
+P3: 38 - 0 = 38
+
+P4: 11 - 0 = 11
+
+P5: 2 - 0 = 2
+
+- Total Turnaround Time = 78 ms
+- Average Turnaround Time = 15.6 ms
+
+### Discussion
+
+As the data shows, the SJF scheduler will have a faster turnaround time than FIFO. Since the process order of FIFO will be totally random, it is likely that the largest jobs could come first and take up processing time. Whereas SJF will complete the shortest processes first and leave the longer ones for last. This means that SJF will have a shorter total turnaround time and average turnaround time.
