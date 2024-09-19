@@ -76,8 +76,12 @@ In this problem, FIFO (First in, Last out) scheduling is used, and all processes
 Turnaround Time = Completion Time - Arrival Time
 
 P1: 3 - 0 = 3
+
 P2: 14 - 0 = 14
+
 P3: 30 - 0 = 30
+
 P4: 36 - 0 = 36
+
 P5: 38 - 0 = 38
 
