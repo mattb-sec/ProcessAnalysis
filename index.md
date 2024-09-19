@@ -72,6 +72,9 @@ In this problem, FIFO (First in, Last out) scheduling is used, and all processes
 | P5           | 2 |
 
 
-P1         P2            P3          P4     P5    
+<div>
+    P1&nbsp;&nbsp;&nbsp;&nbsp;P2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P4&nbsp;&nbsp;&nbsp;&nbsp;P5
+</div>
+    
 |----|-----------|----------------|------|-----|
 
